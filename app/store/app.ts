@@ -77,6 +77,10 @@ export const ALL_MODELS = [
     name: "gpt-3.5-turbo-0301",
     available: true,
   },
+  {
+    name: "text-davinci-003",
+    available: true,
+  },
 ];
 
 export function isValidModel(name: string) {
